@@ -30,6 +30,36 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
+  title: 'Početna',
+  caption: 'Početna stranica',
+  icon: 'favorite',
+  link: '#/',
+  },
+  {
+  title: 'Popis knjiga',
+  caption: 'Popis svih knjiga',
+  icon: 'book',
+  link: '#/popisKnjiga',
+  },
+  {
+  title: 'Korisnici',
+  caption: 'Stranica korisnika',
+  icon: 'person',
+  link: '#/users',
+  },
+    {
+    title: 'Nove knjige',
+    caption: 'popis novih knjiga',
+    icon: 'book',
+    link: '#/noveKnjige',
+  },
+  {
+    title: 'knjižnica',
+    caption: 'quasar knjižnica',
+    icon: 'favorite',
+    link: 'https://github.com/vuxi2/knjiznica.git',
+  },
+  {
     title: 'Docs',
     caption: 'quasar.dev',
     icon: 'school',
@@ -72,17 +102,12 @@ const linksList = [
     link: 'https://awesome.quasar.dev',
   },
   {
-    title: 'knjižnica',
-    caption: 'quasar knjižnica',
-    icon: 'favorite',
-    link: 'https://github.com/vuxi2/knjiznica.git',
-  },
-  {
     title: 'VELERI',
     caption: 'veleuciliste rijeka',
     icon: 'school',
     link: 'https://www.veleri.hr/hr',
   },
+
 ]
 
 const leftDrawerOpen = ref(false)
