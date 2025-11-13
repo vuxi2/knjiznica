@@ -70,6 +70,12 @@ const linksList = [
   caption: 'Registriraj se',
   icon: 'app_registration',
   link: '#/registracija',
+  },
+  {
+  title: 'Unos novih knjiga',
+  caption: 'unesi nove knjige',
+  icon: 'book',
+  link: '#/unosNovih',
   }
 
 ]
